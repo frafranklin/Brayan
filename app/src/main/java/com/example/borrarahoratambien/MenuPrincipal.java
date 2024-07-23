@@ -28,7 +28,7 @@ public class MenuPrincipal extends AppCompatActivity {
 
         CerrarSesion = findViewById(R.id.CerrarSesión);
         firebaseAuth = FirebaseAuth.getInstance();
-        user = firebaseAuth.getCurrentUser();
+
 
 
 
