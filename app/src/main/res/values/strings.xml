@@ -15,5 +15,11 @@
     <string name="TengoUnaCuenta">Tengo una cuenta</string>
     <!--MENÚ PRINCIPAL-->
     <string name="CerrarSesión">Salir</string>
+    <!--Actividad login-->
+    <string name="IniciarSesiónTxt">Iniciar sesión</string>
+    <string name="CorreoLogin">Correo</string>
+    <string name="PassLogin">Contraseña</string>
+    <string name="Btn_loging">Ingresar</string>
+    <string name="UsuarioNuevoTXT">¿No tienes una cuenta?. Registrate</string>
 
 </resources>
