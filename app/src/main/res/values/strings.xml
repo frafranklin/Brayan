@@ -25,6 +25,10 @@
     <string name="BienVendioPrincipal">Bienvenido(a)</string>
     <string name="NombresPrincipal"> -- </string>
     <string name="CorreoPrincipal"> -- </string>
+    <!--PaginaPrincipalCausa-->
+    <string name="productos1">Productos</string>
+    <string name="Nosotrosm1">Nosotros</string>
+    <string name="saliendoCD">Exit</string>
 
 
 </resources>
