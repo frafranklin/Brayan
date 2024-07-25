@@ -27,7 +27,7 @@ import com.google.firebase.database.ValueEventListener;
 
 public class MenuPrincipal extends AppCompatActivity {
 
-    private LinearLayout btn_nosotros, btn_producto,CerrarSesion;
+    private LinearLayout btn_nosotros, btn_producto,CerrarSesion,btn_provedores;
 
     private FirebaseAuth firebaseAuth;
     private FirebaseUser user;
@@ -45,6 +45,16 @@ public class MenuPrincipal extends AppCompatActivity {
 
         btn_producto = findViewById(R.id.btn_producto);
         btn_producto.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MenuPrincipal.this, Producto.class));
+
+            }
+        });
+
+
+        btn_provedores = findViewById(R.id.btn_provedores);
+        btn_provedores.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(MenuPrincipal.this, Producto.class));

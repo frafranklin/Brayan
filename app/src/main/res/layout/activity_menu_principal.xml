@@ -67,12 +67,15 @@
             </androidx.appcompat.widget.LinearLayoutCompat>
 
         </androidx.cardview.widget.CardView>
-
-        <Button
-            android:id="@+id/CerrarSesiónn"
-            android:text="@string/CerrarSesión"
-            android:layout_width="wrap_content"
+        <TextView
+            android:text="@string/Titulo"
+            android:fontFamily="@font/worksans"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
+
+
 
         <GridLayout
             android:layout_width="match_parent"
@@ -127,6 +130,7 @@
                 android:layout_margin="12dp">
 
                 <LinearLayout
+                    android:id="@+id/btn_provedores"
                     android:padding="16dp"
                     android:layout_gravity="center"
                     android:orientation="vertical"

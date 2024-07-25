@@ -16,7 +16,7 @@ import androidx.core.view.WindowInsetsCompat;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-public class Producto extends AppCompatActivity {
+public class Proveedores extends AppCompatActivity {
     RecyclerView rv1;
     String[] nombres = {"Marco Polo", "Roberto Macetas", "Jose Carlos", "Miranda Cabrera", "Soledad Antunez", "Mela Gomez", "Tony Cabrejo", "Manuel Lesbi"};
     int[] edades = {20, 19, 14, 25, 33, 15, 29, 27};
@@ -26,7 +26,7 @@ public class Producto extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-        setContentView(R.layout.activity_producto);
+        setContentView(R.layout.activity_proveedores);
 
         rv1 = findViewById(R.id.rv1);
         LinearLayoutManager linearLayoutManager = new LinearLayoutManager(this);
@@ -44,7 +44,7 @@ public class Producto extends AppCompatActivity {
         @NonNull
         @Override
         public AdaptadorPersonaHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-            return new AdaptadorPersonaHolder(getLayoutInflater().inflate(R.layout.loyout_card, parent, false));
+            return new AdaptadorPersonaHolder(getLayoutInflater().inflate(R.layout.layout_card, parent, false));
         }
 
         @Override
