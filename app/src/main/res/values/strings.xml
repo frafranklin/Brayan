@@ -21,5 +21,10 @@
     <string name="PassLogin">Contraseña</string>
     <string name="Btn_loging">Ingresar</string>
     <string name="UsuarioNuevoTXT">¿No tienes una cuenta?. Registrate</string>
+    <!--Menu principal-->
+    <string name="BienVendioPrincipal">Bienvenido(a)</string>
+    <string name="NombresPrincipal"> -- </string>
+    <string name="CorreoPrincipal"> -- </string>
+
 
 </resources>
