@@ -69,7 +69,7 @@
         </androidx.cardview.widget.CardView>
 
         <Button
-            android:id="@+id/CerrarSesión"
+            android:id="@+id/CerrarSesiónn"
             android:text="@string/CerrarSesión"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
@@ -92,14 +92,15 @@
                 android:layout_margin="12dp">
 
                 <LinearLayout
+                    android:id="@+id/btn_producto"
                     android:padding="16dp"
                     android:layout_gravity="center"
                     android:orientation="vertical"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
 
-                    <ImageButton
-
+                    <ImageView
+                        android:src="@drawable/productosimg"
                         android:layout_width="100dp"
                         android:layout_height="100dp" />
 
@@ -228,14 +229,16 @@
                 android:layout_margin="12dp">
 
                 <LinearLayout
+                    android:id="@+id/btn_nosotros"
                     android:padding="16dp"
                     android:layout_gravity="center"
                     android:orientation="vertical"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
 
-                    <ImageButton
-                        android:id="@+id/btn_nosotros"
+                    <ImageView
+                        android:src="@drawable/nosotros"
+                        android:id="@+id/btn_nosotross"
                         android:layout_width="100dp"
                         android:layout_height="100dp"/>
 
@@ -245,7 +248,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="2dp"
-                        android:text="Ejercicio"
+                        android:text="Nosotros"
                         android:textAlignment="center"
                         android:textSize="18sp"
                         android:textStyle="bold" />
@@ -263,6 +266,7 @@
                 android:layout_margin="12dp">
 
                 <LinearLayout
+                    android:id="@+id/CerrarSesión"
                     android:padding="16dp"
                     android:layout_gravity="center"
                     android:orientation="vertical"
@@ -270,6 +274,7 @@
                     android:layout_height="wrap_content">
 
                     <ImageView
+                        android:src="@drawable/exit"
                         android:layout_width="100dp"
                         android:layout_height="100dp" />
 
@@ -277,7 +282,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="2dp"
-                        android:text="Ejercicio"
+                        android:text="Exit"
                         android:textAlignment="center"
                         android:textSize="18sp"
                         android:textStyle="bold" />

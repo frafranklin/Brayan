@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
+import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -26,9 +27,8 @@ import com.google.firebase.database.ValueEventListener;
 
 public class MenuPrincipal extends AppCompatActivity {
 
-    private ImageButton btn_nosotros;
+    private LinearLayout btn_nosotros, btn_producto,CerrarSesion;
 
-    private Button CerrarSesion;
     private FirebaseAuth firebaseAuth;
     private FirebaseUser user;
 
@@ -42,6 +42,15 @@ public class MenuPrincipal extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu_principal);
+
+        btn_producto = findViewById(R.id.btn_producto);
+        btn_producto.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MenuPrincipal.this, Producto.class));
+
+            }
+        });
 
 
         btn_nosotros = findViewById(R.id.btn_nosotros);
